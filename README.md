@@ -1,2 +1,2 @@
 # FTA
-Application which provide synchronization file with the main server. Server can store file in database, which could be manual choosen. Repo include source code of dektop client and file-handling server.
+An application that provides a synchronization file with the main server. The server can store the file in a database, which can be selected manually. The repository contains the source code of the desktop client and file server.
