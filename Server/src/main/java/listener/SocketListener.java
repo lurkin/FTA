@@ -1,5 +1,7 @@
 package listener;
 
+import handler.Handler;
+
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -19,8 +21,11 @@ public class SocketListener extends Listener {
         while (isListening) {
             try {
                 Socket socket= serverSocket.accept();
+                new Handler(socket).call();
             } catch (IOException e) {
                 System.out.println("Failed to establish connection with client.");
+            } catch (Exception e) {
+                e.printStackTrace();
             }
 
 

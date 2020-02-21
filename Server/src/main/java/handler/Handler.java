@@ -22,8 +22,14 @@ public class Handler implements Callable<Boolean> {
 
         try (BufferedReader msgClientToServer = new BufferedReader(new InputStreamReader(socket.getInputStream()));
              PrintWriter msgServerToClient = new PrintWriter(socket.getOutputStream(), true)) {
-
-            evaluateRequest(msgClientToServer.readLine());
+            Boolean a = true;
+            String line;
+            while (a) {
+                line =msgClientToServer.readLine();
+                System.out.println("Abc: " +line);
+                msgServerToClient.println(line);
+            }
+//            evaluateRequest(msgClientToServer.readLine());
 
 
         }
@@ -34,7 +40,7 @@ public class Handler implements Callable<Boolean> {
 
     public void evaluateRequest(String request) {
         List<String> splittedRequest = Arrays.asList(request.split(" "));
-        switch (splittedRequest.remove(0)){
+        switch (splittedRequest.remove(0)) {
 
         }
     }
