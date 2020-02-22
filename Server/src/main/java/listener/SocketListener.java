@@ -21,7 +21,7 @@ public class SocketListener extends Listener {
         while (isListening) {
             try {
                 Socket socket= serverSocket.accept();
-                new Handler(socket).call();
+                new Handler(socket).run();
             } catch (IOException e) {
                 System.out.println("Failed to establish connection with client.");
             } catch (Exception e) {
