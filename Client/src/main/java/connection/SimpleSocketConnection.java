@@ -1,14 +1,11 @@
 package connection;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
 
 public class SimpleSocketConnection implements Connectable {
-    private String host;
-    private Integer port;
+    private final String host;
+    private final Integer port;
     private Socket socket;
 
     private BufferedReader msgIn;
@@ -22,11 +19,12 @@ public class SimpleSocketConnection implements Connectable {
     }
 
     @Override
-    public void connect() {
+    public boolean connect() {
         try {
             socket = new Socket(host, port);
         } catch (IOException e) {
             System.out.println("Couldn't connect to: " + host + ":" + port + ".");
+            return false;
         }
 
         try {
@@ -34,38 +32,46 @@ public class SimpleSocketConnection implements Connectable {
             msgOut = new PrintWriter(socket.getOutputStream(), true);
         } catch (IOException e) {
             System.out.println("Some error occurred during initialization connection.");
+            return false;
         }
-        connected = true;
-
+        return connected = true;
     }
 
     @Override
-    public void write(String msg) {
+    public String write(String msg) {
         if (!connected)
-            System.out.println("No connection available.");
+            return "No connection available.";
         else {
 
             msgOut.println(msg);
             try {
                 String line;
-                System.out.println(line = msgIn.readLine());
+                return line = msgIn.readLine();
             } catch (IOException e) {
-                System.out.println("No message received.");
+                return "No message received.";
             }
         }
-
-
     }
 
-    public void disconnect() {
-        if (socket.isConnected()) {
-            try {
-                socket.close();
-            } catch (IOException e) {
-                System.out.println("Something want wrong during socket closing.");
-            }
+    @Override
+    public boolean sendFile(File file) {
+        return false;
+    }
+
+    @Override
+    public File receiveFile() {
+        return null;
+    }
+
+    @Override
+    public boolean disconnect() {
+        try {
+            socket.close();
+        } catch (IOException e) {
+            System.out.println("Something want wrong during socket closing.");
+            return true;
         }
 
-        connected = false;
+        return connected = false;
     }
 }

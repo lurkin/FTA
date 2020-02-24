@@ -11,4 +11,5 @@ public interface DAO {
 
     public String doCheckCurrentHashCodeOfFile(String fileName);
 
+    public boolean doPost(byte[] bytes);
 }
