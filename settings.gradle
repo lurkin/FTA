@@ -1,4 +1,0 @@
-rootProject.name = 'FTA'
-include 'Client'
-include 'Server'
-
