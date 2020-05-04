@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:include="common/header :: common-header">
+    <title id="pageTitle">Page title</title>
+</head>
+<body>
+<div th:replace="common/header :: navbar"></div>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    Id: <input type="text" name="id">
+    Document: <input type="file" name="file">
+    <input type="submit" value="Upload">
+
+    <table>
+        <thead>
+        <td>
+            ID
+        </td>
+        <td>
+            Name
+        </td>
+        </thead>
+        <th:block>
+            <tr th:each="doc : ${list}">
+                <td th:text="${doc.id}"></td>
+                <td th:text="${doc.name}"></td>
+                <td><a th:href="@{/download(id=${doc.id})}">Download</a></td>
+            </tr>
+        </th:block>
+    </table>
+
+</form>
+<div th:replace="common/header :: footer"></div>
+<div th:replace="common/header :: scripts"></div>
+</body>
+</html>
