@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:include="common/header :: common-header">
+    <title id="pageTitle">Login</title>
+</head>
+<body>
+<div th:replace="common/header :: navbar"></div>
+
+<h2>Login</h2>
+<form action="/login" method="post">
+<pre>
+Email:    <input type="text" name="email"/>
+Password: <input type="password" name="password"/>
+<input type="submit" value="login"/>
+</pre>
+</form>
+
+
+<div th:replace="common/header :: footer"></div>
+<div th:replace="common/header :: scripts"></div>
+
+
+</body>
+</html>

@@ -1,7 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3786a88-5c7a-4c8d-8bc2-713e394433bf" name="Default Changelist" comment="" />
+    <list default="true" id="f3786a88-5c7a-4c8d-8bc2-713e394433bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_33.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/ClientApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/DirectoryViewer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/WatchServiceThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/dto/FileTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/services/FileConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/DocumentRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/dto/FileTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/repos/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/SecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/SecurityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/entities/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/entities/FileObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/services/FileConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/services/FileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/ServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/api/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/controllers/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/entities/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/repos/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/repos/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/services/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/FileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/static/js/addons/masonry.pkgd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/static/js/addons/masonry.pkgd.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/static/js/mdb.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/static/js/mdb.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/fileList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/fileList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/fileUpload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/fileUpload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/test/java/com/fileshare/server/ServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/test/java/pl/pjatk/s13242/fileshare/server/ServerApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,47 +71,59 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1adW34fk3E69tapZ2UZaF8CSqp9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../documentweb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/src/main/resources/templates" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.pjatk.s13242.fileshare.client.services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.pjatk.s13242.fileshare.client.dto" />
+      <recent name="pl.pjatk.s13242.fileshare.server.security.config" />
       <recent name="" />
       <recent name="com.fileshare.server.entities" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Maciej\home\Java\IJ_workspace\FTA\Server\src\main\resources\templates" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static\css" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\templates" />
     </key>
@@ -69,10 +142,21 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ClientApp">
+    <configuration name="ClientApp" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pl.pjatk.s13242.fileshare.client.ClientApp" />
+      <module name="Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fileshare.server.ServerApplication" />
-      <module name="server" />
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pl.pjatk.s13242.fileshare.server.ServerApplication" />
+      <module name="Server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fileshare.server.*" />
@@ -83,6 +167,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ClientApp" />
+      <item itemvalue="Application.ServerApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerApplication" />
@@ -103,74 +191,126 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="358" key="#Project_Structure" timestamp="1588151383098">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="654" y="188" key="#Project_Structure" timestamp="1588707988172">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="654" y="188" key="#Project_Structure/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588707988172" />
     <state x="872" y="358" key="#Project_Structure/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588151383098" />
-    <state x="1085" y="400" key="#com.intellij.ide.util.MemberChooser" timestamp="1587069566519">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588813230630">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588813230630" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588772908839" />
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1588813219548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588813219548" />
+    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser" timestamp="1588940870196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588940870196" />
+    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588770687828" />
     <state x="1085" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587069566519" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1588149597975">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588813222725">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588813222725" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588772899321" />
+    <state x="630" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588772510905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588772510905" />
+    <state x="795" y="337" key="FileChooserDialogImpl" timestamp="1588727680052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1125" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588604316308" />
+    <state x="795" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588727680052" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149597975" />
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1588603375483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1588951756304">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1588603375483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1588951756304">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1588603375483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1588951756304">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1588603375483">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1588951756304">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1236" height="491" key="GridCell.Tab.1.bottom" timestamp="1588153541605">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588951756302">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
     <state width="1236" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1236" height="491" key="GridCell.Tab.1.center" timestamp="1588153541605">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588951756302">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
     <state width="1236" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1236" height="491" key="GridCell.Tab.1.left" timestamp="1588153541605">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588951756302">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
     <state width="1236" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1236" height="491" key="GridCell.Tab.1.right" timestamp="1588153541605">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588951756302">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
     <state width="1236" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state x="860" y="442" key="IDE.errors.dialog" timestamp="1587065947383">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="-1275" y="328" key="IDE.errors.dialog" timestamp="1588604260226">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1275" y="328" key="IDE.errors.dialog/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588604260226" />
     <state x="860" y="442" key="IDE.errors.dialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587065947383" />
-    <state x="810" y="354" key="Maven.ArtifactSearchDialog" timestamp="1588151151225">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="608" y="263" key="Maven.ArtifactSearchDialog" timestamp="1588789700023">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="608" y="263" key="Maven.ArtifactSearchDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588789700023" />
     <state x="810" y="354" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588151151225" />
     <state x="945" y="398" key="NewModule_or_Project.wizard" timestamp="1587066326456">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="945" y="398" key="NewModule_or_Project.wizard/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066326456" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1587066375595">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="570" y="188" key="SettingsEditor" timestamp="1588871995051">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="570" y="188" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588871995051" />
+    <state x="-1350" y="188" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588604293088" />
+    <state x="570" y="188" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588773439715" />
     <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066375595" />
     <state x="873" y="462" key="com.intellij.ide.util.TipDialog" timestamp="1588149433964">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587292579818" />
     <state x="873" y="462" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149433964" />
+    <state x="-1205" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588804365203">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1205" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588804365203" />
     <state x="663" y="320" key="new project wizard" timestamp="1587066297744">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="663" y="320" key="new project wizard/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066297744" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588892298469">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588892298469" />
   </component>
 </project>

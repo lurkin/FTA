@@ -1,0 +1,7 @@
+pl\pjatk\s13242\fileshare\client\services\FileConnection.class
+pl\pjatk\s13242\fileshare\client\utils\FileUtil.class
+pl\pjatk\s13242\fileshare\client\entities\File.class
+pl\pjatk\s13242\fileshare\client\ClientApp.class
+pl\pjatk\s13242\fileshare\client\services\FileProvider.class
+pl\pjatk\s13242\fileshare\client\DirectoryViewer.class
+pl\pjatk\s13242\fileshare\client\WatchServiceThread.class

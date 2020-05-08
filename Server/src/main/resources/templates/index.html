@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>File Sharing</title>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:include="common/header :: common-header">
+    <title id="pageTitle">FileShare</title>
 </head>
 <body>
-Index
+<div th:replace="common/header :: navbar"></div>
+<a href="/login">Login</a><br>
+<a href="/showReg">Register</a>
+
+<div th:replace="common/header :: footer"></div>
+<div th:replace="common/header :: scripts"></div>
 </body>
 </html>
