@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3786a88-5c7a-4c8d-8bc2-713e394433bf" name="Default Changelist" comment="" />
+    <list default="true" id="f3786a88-5c7a-4c8d-8bc2-713e394433bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/test/java/services/FileProviderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/services/FileConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/services/FileConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/services/FileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/services/FileProvider.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +26,12 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1adW34fk3E69tapZ2UZaF8CSqp9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,24 +52,33 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../documentweb" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static\css" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.fileshare.server.entities" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static\css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\templates" />
     </key>
   </component>
@@ -69,7 +96,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FileProviderTest.getFiles">
     <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fileshare.server.ServerApplication" />
       <module name="server" />
@@ -83,8 +110,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileProviderTest.getFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.FileProviderTest" />
+      <option name="METHOD_NAME" value="getFiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileProviderTest.getFiles" />
         <item itemvalue="Application.ServerApplication" />
       </list>
     </recent_temporary>
@@ -111,63 +155,71 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587069566519" />
+    <state x="1027" y="120" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588964328496">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1027" y="120" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964328496" />
     <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1588149597975">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149597975" />
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1588603375483">
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom" timestamp="1588964344216">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1588603375483">
+    <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964344216" />
+    <state width="2517" height="358" key="GridCell.Tab.0.center" timestamp="1588964344216">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1588603375483">
+    <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964344216" />
+    <state width="2517" height="358" key="GridCell.Tab.0.left" timestamp="1588964344216">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1588603375483">
+    <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964344216" />
+    <state width="2517" height="358" key="GridCell.Tab.0.right" timestamp="1588964344216">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1236" height="491" key="GridCell.Tab.1.bottom" timestamp="1588153541605">
+    <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964344216" />
+    <state width="2517" height="491" key="GridCell.Tab.1.bottom" timestamp="1588964283697">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1236" height="491" key="GridCell.Tab.1.center" timestamp="1588153541605">
+    <state width="2517" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964283697" />
+    <state width="2517" height="491" key="GridCell.Tab.1.center" timestamp="1588964283697">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1236" height="491" key="GridCell.Tab.1.left" timestamp="1588153541605">
+    <state width="2517" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964283697" />
+    <state width="2517" height="491" key="GridCell.Tab.1.left" timestamp="1588964283697">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1236" height="491" key="GridCell.Tab.1.right" timestamp="1588153541605">
+    <state width="2517" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964283697" />
+    <state width="2517" height="491" key="GridCell.Tab.1.right" timestamp="1588964283697">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1236" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
+    <state width="2517" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964283697" />
     <state x="860" y="442" key="IDE.errors.dialog" timestamp="1587065947383">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="860" y="442" key="IDE.errors.dialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587065947383" />
-    <state x="810" y="354" key="Maven.ArtifactSearchDialog" timestamp="1588151151225">
+    <state x="810" y="354" key="Maven.ArtifactSearchDialog" timestamp="1588963497908">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="810" y="354" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588151151225" />
+    <state x="810" y="354" key="Maven.ArtifactSearchDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588963497908" />
     <state x="945" y="398" key="NewModule_or_Project.wizard" timestamp="1587066326456">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="945" y="398" key="NewModule_or_Project.wizard/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066326456" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1587066375595">
+    <state x="760" y="278" width="998" height="712" key="SettingsEditor" timestamp="1588964187848">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066375595" />
-    <state x="873" y="462" key="com.intellij.ide.util.TipDialog" timestamp="1588149433964">
+    <state x="760" y="278" width="998" height="712" key="SettingsEditor/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964187848" />
+    <state x="873" y="462" key="com.intellij.ide.util.TipDialog" timestamp="1588964128205">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587292579818" />
-    <state x="873" y="462" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149433964" />
+    <state x="873" y="462" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588964128205" />
+    <state x="1051" y="402" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588954680524">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1051" y="402" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588954680524" />
     <state x="663" y="320" key="new project wizard" timestamp="1587066297744">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

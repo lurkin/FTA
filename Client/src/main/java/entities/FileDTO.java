@@ -1,6 +1,6 @@
 package entities;
 
-public class File {
+public class FileDTO {
 
     private Long id;
     private String name,
