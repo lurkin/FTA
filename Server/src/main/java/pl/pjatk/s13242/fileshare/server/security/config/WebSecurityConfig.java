@@ -32,6 +32,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //        http.authorizeRequests().antMatchers("/*", "/", "index.html").permitAll()
 //        .antMatchers("/admin/*").hasAnyAuthority("ADMIN").anyRequest().authenticated().and().csrf().disable();
 
-        http.authorizeRequests().antMatchers("*").permitAll();
+        http.authorizeRequests().anyRequest().permitAll().and()
+                .cors()
+                .and()
+                .httpBasic().and().csrf().disable();
     }
 }

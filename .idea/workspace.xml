@@ -2,66 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3786a88-5c7a-4c8d-8bc2-713e394433bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_fluent_hc_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_33.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/ClientApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/DirectoryViewer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/WatchServiceThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/dto/FileTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/services/FileConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/DocumentRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/dto/FileTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/repos/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/security/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/SecurityServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/UserDetailsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/BootifulFxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/JavafxApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/SimpleUiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/StageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/resources/ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/test/java/pl/pjatk/s13242/javafxspringdemmo/JavafxApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/entities/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/entities/FileObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/services/FileConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/src/main/java/services/FileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/api/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/controllers/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/DocumentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/entities/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/repos/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/repos/FileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/fileshare/server/services/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/services/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/static/js/addons/masonry.pkgd.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/static/js/addons/masonry.pkgd.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/static/js/mdb.min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/static/js/mdb.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/common/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/fileList.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/fileList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/fileUpload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/fileUpload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/test/java/com/fileshare/server/ServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/test/java/pl/pjatk/s13242/fileshare/server/ServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/security/config/WebSecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,12 +44,15 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -109,8 +70,12 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pl.pjatk.s13242.fileshare.client.services" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static" />
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Maciej\home\Java\IJ_workspace\FTA\Server\src\main\resources\templates" />
+      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static\css" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\templates" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -119,12 +84,8 @@
       <recent name="" />
       <recent name="com.fileshare.server.entities" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Maciej\home\Java\IJ_workspace\FTA\Server\src\main\resources\templates" />
-      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static\css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\static" />
       <recent name="D:\Documents\Codes\FileShare\Server\src\main\resources\templates" />
     </key>
   </component>
@@ -142,7 +103,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.ClientApp">
+  <component name="RunManager" selected="Application.ServerApplication">
     <configuration name="ClientApp" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -190,6 +151,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="654" y="188" key="#Project_Structure" timestamp="1588707988172">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -226,32 +190,32 @@
     <state x="-1125" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588604316308" />
     <state x="795" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588727680052" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149597975" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1588951756304">
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1589108146640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1588951756304">
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1589108146640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1588951756304">
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1589108146640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1588951756304">
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1589108146640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756304" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
     <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588951756302">
@@ -304,9 +268,10 @@
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1205" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588804365203" />
-    <state x="663" y="320" key="new project wizard" timestamp="1587066297744">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="497" y="238" key="new project wizard" timestamp="1589038216242">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="497" y="238" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589038216242" />
     <state x="663" y="320" key="new project wizard/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066297744" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588892298469">
       <screen x="0" y="0" width="1920" height="1040" />

@@ -1,6 +1,8 @@
 package pl.pjatk.s13242.fileshare.server.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -56,7 +58,18 @@ public class AccountController {
 
         boolean loginResponse = securityService.login(email, password);
 
-        //Account account  = accountRepository.findByEmail(email);
+        String username = "init";
+
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if (principal instanceof UserDetails) {
+            username = ((UserDetails)principal).getUsername();
+        } else {
+            username = principal.toString();
+        }
+
+
+
+        Account account  = accountRepository.findByEmail(username);
         //if(account != null && account.getPassword().equals(password)) {
         if(loginResponse){
             List<File> files = fileService.findAll();
