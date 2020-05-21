@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f3786a88-5c7a-4c8d-8bc2-713e394433bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/BootifulFxApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/JavafxApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/SimpleUiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/java/pl/pjatk/s13242/javafxspringdemmo/StageListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/main/resources/ui.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javafxspringdemmo/src/test/java/pl/pjatk/s13242/javafxspringdemmo/JavafxApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp_okhttp_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_vfs2_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_client_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/RequestManagerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/UiThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/dto/FileTreeComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/dto/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/enums/Comparision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/enums/RequestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/ConnectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/ConnectionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/ui/FileViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/utils/FileUtilImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/fileView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/resources/ui.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/dto/FileTreeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/services/FileHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/utils/FileUtilImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/ui/FileViewController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/FileRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/dto/UploadResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/ClientApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/DirectoryViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/ui/DirectoryViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/WatchServiceThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/WatchServiceThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/dto/FileTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/dto/FileTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/services/FileProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/pl/pjatk/s13242/fileshare/client/utils/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/services/FileConnectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/test/java/pl/pjatk/s13242/fileshare/client/services/FileConnectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/ClientApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/ClientApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/DirectoryViewer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/WatchServiceThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/WatchServiceThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/dto/FileTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/dto/FileTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/entities/File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/services/FileConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/services/FileConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/services/FileProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/services/FileProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/utils/FileUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/classes/pl/pjatk/s13242/fileshare/client/utils/FileUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/target/test-classes/pl/pjatk/s13242/fileshare/client/services/FileConnectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Client/target/test-classes/pl/pjatk/s13242/fileshare/client/services/FileConnectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/DocumentRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/api/DocumentRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/DocumentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/controllers/DocumentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/pl/pjatk/s13242/fileshare/server/entities/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +91,11 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="module-info" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,8 +107,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="flattenModules" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -57,18 +118,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.pjatk.s13242.fileshare.client.dto" />
       <recent name="pl.pjatk.s13242.fileshare.client.services" />
+      <recent name="pl.pjatk.s13242.fileshare.client.utils" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -103,7 +169,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.ServerApplication">
+  <component name="RunManager" selected="JUnit.FileTreeTest.setParent">
     <configuration name="ClientApp" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -128,12 +194,74 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileTreeTest.setParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.pjatk.s13242.fileshare.client.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.pjatk.s13242.fileshare.client.dto" />
+      <option name="MAIN_CLASS_NAME" value="pl.pjatk.s13242.fileshare.client.dto.FileTreeTest" />
+      <option name="METHOD_NAME" value="setParent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtilImplTest.getLocalFileTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.pjatk.s13242.fileshare.client.utils.FileUtil" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.pjatk.s13242.fileshare.client.utils" />
+      <option name="MAIN_CLASS_NAME" value="pl.pjatk.s13242.fileshare.client.utils.FileUtilImplTest" />
+      <option name="METHOD_NAME" value="getLocalFileTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtilImplTest.getNamePath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.pjatk.s13242.fileshare.client.utils.FileUtil" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.pjatk.s13242.fileshare.client.utils" />
+      <option name="MAIN_CLASS_NAME" value="pl.pjatk.s13242.fileshare.client.utils.FileUtilImplTest" />
+      <option name="METHOD_NAME" value="getNamePath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.pjatk.s13242.fileshare.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ClientApp" />
       <item itemvalue="Application.ServerApplication" />
+      <item itemvalue="JUnit.FileUtilImplTest.getLocalFileTree" />
+      <item itemvalue="JUnit.FileUtilImplTest.getNamePath" />
+      <item itemvalue="Spring Boot.ServerApplication" />
+      <item itemvalue="JUnit.FileTreeTest.setParent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileTreeTest.setParent" />
+        <item itemvalue="JUnit.FileUtilImplTest.getLocalFileTree" />
+        <item itemvalue="JUnit.FileUtilImplTest.getNamePath" />
         <item itemvalue="Application.ServerApplication" />
       </list>
     </recent_temporary>
@@ -148,13 +276,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587065748880</updated>
+      <workItem from="1589913172843" duration="2755000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="617" y="210" key="#File_and_Code_Templates" timestamp="1589566214639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="210" key="#File_and_Code_Templates/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589566214639" />
     <state x="654" y="188" key="#Project_Structure" timestamp="1588707988172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,11 +316,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="224" key="#com.intellij.ide.macro.MacrosDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588813219548" />
-    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser" timestamp="1588940870196">
+    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser" timestamp="1589913475653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588940870196" />
-    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588770687828" />
+    <state x="814" y="297" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589913475653" />
     <state x="1085" y="400" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587069566519" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588813222725">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -184,59 +331,79 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="630" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588772510905" />
-    <state x="795" y="337" key="FileChooserDialogImpl" timestamp="1588727680052">
+    <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589468983109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="388" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589468983109" />
+    <state x="621" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1589565404550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="621" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589565404550" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589565283401">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589565283401" />
+    <state x="795" y="337" key="FileChooserDialogImpl" timestamp="1589718558101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1125" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1588604316308" />
-    <state x="795" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588727680052" />
+    <state x="795" y="337" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589718558101" />
     <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149597975" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1589108146640">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1589931611342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
-    <state width="1877" height="289" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
+    <state width="1877" height="292" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589314395725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589931611342" />
     <state width="2517" height="358" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1589108146640">
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1589931611342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
-    <state width="1877" height="289" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
+    <state width="1877" height="292" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589314395725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589931611342" />
     <state width="2517" height="358" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1589108146640">
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1589931611342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
-    <state width="1877" height="289" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
+    <state width="1877" height="292" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589314395725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589931611342" />
     <state width="2517" height="358" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1589108146640">
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1589931611342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588812878932" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589108146640" />
-    <state width="1877" height="289" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1588776539383" />
+    <state width="1877" height="292" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1589314395725" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589931611342" />
     <state width="2517" height="358" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588603375483" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588951756302">
+    <state width="1877" height="172" key="GridCell.Tab.1.bottom" timestamp="1589588524599">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
+    <state width="1877" height="172" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589588524599" />
     <state width="1236" height="491" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588951756302">
+    <state width="1877" height="172" key="GridCell.Tab.1.center" timestamp="1589588524598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
+    <state width="1877" height="172" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589588524598" />
     <state width="1236" height="491" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588951756302">
+    <state width="1877" height="172" key="GridCell.Tab.1.left" timestamp="1589588524598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
+    <state width="1877" height="172" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589588524598" />
     <state width="1236" height="491" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588951756302">
+    <state width="1877" height="172" key="GridCell.Tab.1.right" timestamp="1589588524598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588951756302" />
+    <state width="1877" height="172" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589588524598" />
     <state width="1236" height="491" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588153541605" />
     <state x="-1275" y="328" key="IDE.errors.dialog" timestamp="1588604260226">
       <screen x="-1920" y="0" width="1920" height="1040" />
@@ -264,18 +431,35 @@
     </state>
     <state x="655" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587292579818" />
     <state x="873" y="462" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1588149433964" />
-    <state x="-1205" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588804365203">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="715" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1589913367700">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1205" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@-1920.0.1920.1040" timestamp="1588804365203" />
-    <state x="497" y="238" key="new project wizard" timestamp="1589038216242">
+    <state x="715" y="326" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589913367700" />
+    <state x="497" y="238" key="new project wizard" timestamp="1589843784251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="497" y="238" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1589038216242" />
+    <state x="497" y="238" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589843784251" />
     <state x="663" y="320" key="new project wizard/0.0.2560.1400/2560.0.1680.1010@0.0.2560.1400" timestamp="1587066297744" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1588892298469">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1589230363805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589230363805" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589418634029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040/-3840.0.1920.1040@0.0.1920.1040" timestamp="1588892298469" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589418634029" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="objectMapper" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FTA$ClientApp.ic" NAME="ClientApp Coverage Results" MODIFIED="1589730701077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

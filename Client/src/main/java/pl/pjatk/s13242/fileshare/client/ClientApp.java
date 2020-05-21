@@ -1,46 +1,93 @@
 package pl.pjatk.s13242.fileshare.client;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpHeaders;
-import org.apache.http.HttpHost;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.fluent.Request;
-import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.client.HttpClients;
-import org.apache.http.util.EntityUtils;
 import pl.pjatk.s13242.fileshare.client.dto.FileTree;
-import pl.pjatk.s13242.fileshare.client.services.FileConnection;
+import pl.pjatk.s13242.fileshare.client.dto.Request;
+import pl.pjatk.s13242.fileshare.client.services.ConnectionService;
+import pl.pjatk.s13242.fileshare.client.services.ConnectionServiceImpl;
+import pl.pjatk.s13242.fileshare.client.utils.FileUtil;
 
-import java.io.File;
+import pl.pjatk.s13242.fileshare.client.utils.FileUtilImpl;
+
 import java.io.IOException;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.prefs.Preferences;
 
 public class ClientApp {
 
     private Preferences prefs;
-    volatile File directory;
 
+    private BlockingQueue<Request> requestQueue;
+
+    static public final String pathRootDirectory = "E:\\Maciej\\Inne\\FileTransfer\\Client";
+
+    static public boolean isRunning;
 
     public static void main(String[] args) throws IOException {
 
+        ClientApp app = new ClientApp();
+        app.startup();
 
-        FileTree fileTree = FileConnection.getFileTree();
-        System.out.println(fileTree.toString());
-        List nodes = fileTree.getChildren();
+    }
+
+    public void startup() throws IOException {
+
+        FileUtilImpl fileUtil = new FileUtilImpl();
+        ConnectionService connectionService = new ConnectionServiceImpl();
+
+        requestQueue = new LinkedBlockingQueue<Request>();
+
+        FileTree userFileTree = fileUtil.getLocalFileTree(pathRootDirectory);
+        FileTree serverFileTree =  fileUtil.getLocalFileTree("E:\\Maciej\\Inne\\FileTransfer\\Server");
+                //connectionService.getRootFileTree();
+
+
+        fileUtil.compareFileTrees(userFileTree, serverFileTree);
+
+        Thread watchService = new Thread(new WatchServiceThread(this));
+        watchService.setDaemon(true);
+        watchService.start();
+
+        Thread requestThread = new Thread(new RequestManagerThread(this.getRequestQueue()));
+        requestThread.setDaemon(true);
+        requestThread.start();
+
+
+        Thread uiThread = new Thread(new UiThread(this));
+        uiThread.setDaemon(true);
+        uiThread.start();
+
+        isRunning = true;
+
+        while (isRunning)
+        {
+            if(!uiThread.isAlive())
+            {
+                isRunning = false;
+            }
+
+            if(!requestThread.isAlive())
+            {
+                isRunning = false;
+            }
+
+
+
+        }
 
 
 
     }
 
-    public void startup() {
 
+    public BlockingQueue<Request> getRequestQueue() {
+        return requestQueue;
     }
 
+    public void stopRunning() {
+        isRunning = false;
+    }
 
 }

@@ -14,6 +14,11 @@ public class File {
     @Column(name = "ft_path")
     private String path;
 
+    @Column(name = "ft_hashcode")
+    private String hashcode;
+
+
+
     @Lob
     @Column(name = "ft_data")
     private byte[] data;

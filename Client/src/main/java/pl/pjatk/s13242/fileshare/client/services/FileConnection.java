@@ -3,7 +3,8 @@ package pl.pjatk.s13242.fileshare.client.services;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpHeaders;
-import org.apache.http.client.fluent.Request;
+import org.apache.http.HttpStatus;
+import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -11,7 +12,6 @@ import org.apache.http.impl.client.HttpClients;
 import pl.pjatk.s13242.fileshare.client.dto.FileTree;
 import pl.pjatk.s13242.fileshare.client.entities.FileObject;
 
-import java.io.File;
 import java.io.IOException;
 
 public class FileConnection {
@@ -22,82 +22,62 @@ public class FileConnection {
 
     public FileObject getFile(Long id) throws IOException {
 
-
-
-
         FileObject newFile = new FileObject();
-
         CloseableHttpClient httpclient = HttpClients.createDefault();
-
         HttpGet request = new HttpGet(hostname + "tree");
 
-
         request.addHeader(HttpHeaders.USER_AGENT, "Googlebot");
-
         ObjectMapper objectMapper = new ObjectMapper();
 
-        CloseableHttpResponse response = httpclient.execute(request);
-        try {
-
-
-            newFile =
-                    objectMapper.readValue(response.getEntity().getContent(), FileObject.class);
-
-
-        } finally {
-            response.close();
+        try (CloseableHttpResponse response = httpclient.execute(request);) {
+            if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK)
+                newFile =
+                        objectMapper.readValue(response.getEntity().getContent(), FileObject.class);
+//            else if (response.getStatusLine().getStatusCode() == HttpStatus.SC_NOT_FOUND)
+        } catch (ClientProtocolException e) {
+            throw new ClientProtocolException("");
+        } catch (IOException e) {
+            throw new IOException("");
         }
-
         return newFile;
-
-
-
-//        try {
-//            Request.Get("http://localhost:8080/download?id=" + String.valueOf(id))
-//                    .execute().saveContent(newFile);
-//
-//        } catch (IOException e) {
-//
-//            e.printStackTrace();
-//        }
-
-       //return newFile;
-
     }
 
-    public static FileTree getFileTree() throws IOException {
+    public FileTree getRootFileTree() {
 
-        FileTree tree = new FileTree();
-
+        FileTree tree = null;
         CloseableHttpClient httpclient = HttpClients.createDefault();
-
         HttpGet request = new HttpGet(hostname + "tree");
 
-
         request.addHeader(HttpHeaders.USER_AGENT, "Googlebot");
-
         ObjectMapper objectMapper = new ObjectMapper();
 
-        CloseableHttpResponse response = httpclient.execute(request);
-        try {
-
-//            System.out.println(response.getProtocolVersion());              // HTTP/1.1
-//            System.out.println(response.getStatusLine().getStatusCode());   // 200
-//            System.out.println(response.getStatusLine().getReasonPhrase()); // OK
-//            System.out.println(response.getStatusLine().toString());        // HTTP/1.1 200 OK
-
+//
+        CloseableHttpResponse response2 = send(request);
+//
+        try (CloseableHttpResponse response = httpclient.execute(request)) {
             tree =
                     objectMapper.readValue(response.getEntity().getContent(), FileTree.class);
-
-
-
-
-
-        } finally {
-            response.close();
+        } catch (IOException e) {
+            System.err.println(e);
         }
-
         return tree;
     }
 
+    public static void send(FileTree fileTree) {
+
+    }
+
+    //KUBA
+//
+    private CloseableHttpResponse send(HttpGet req) {
+        try (CloseableHttpResponse response = httpclient.execute(req);) {
+            if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK)
+                return response;
+//            else if (response.getStatusLine().getStatusCode() == HttpStatus.SC_NOT_FOUND)
+        } catch (ClientProtocolException e) {
+            throw new ClientProtocolException("");
+        } catch (IOException e) {
+            throw new IOException("");
+        }
+    }
 }

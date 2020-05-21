@@ -1,9 +1,13 @@
 package pl.pjatk.s13242.fileshare.server.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 import pl.pjatk.s13242.fileshare.server.dto.FileTree;
+import pl.pjatk.s13242.fileshare.server.entities.Account;
 import pl.pjatk.s13242.fileshare.server.entities.File;
+import pl.pjatk.s13242.fileshare.server.repos.AccountRepository;
 import pl.pjatk.s13242.fileshare.server.repos.FileRepository;
 
 import java.util.*;
@@ -12,26 +16,43 @@ import java.util.*;
 public class DocumentRestController {
 
     @Autowired
-    private FileRepository repository;
+    private AccountRepository accountRepository;
+
+    @Autowired
+    private FileRepository fileRepository;
 
     @RequestMapping("/file/{id}")
     public File findReservation(@PathVariable("id") Long id) {
-        return repository.findById(id).orElse(null);
+        return fileRepository.findById(id).orElse(null);
     }
 
     @PostMapping("/file")
     public File createFile(@RequestBody File file)
     {
 
-        return repository.save(file);
+        return fileRepository.save(file);
     }
 
     @GetMapping("/tree")
     public FileTree getFileTree()
     {
+        String username = "init";
+
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        if (principal instanceof UserDetails) {
+            username = ((UserDetails)principal).getUsername();
+        } else {
+            username = principal.toString();
+        }
+
+        Account account = accountRepository.findByEmail(username);
+
+        System.out.println(account);
+
+
     // TODO
         FileTree tree = new FileTree();
-        tree.setFileName("alalal");
+        tree.setFileName(username);
         tree.setDirectory(true);
 
 

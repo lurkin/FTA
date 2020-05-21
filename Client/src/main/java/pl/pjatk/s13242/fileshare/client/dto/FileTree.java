@@ -7,6 +7,24 @@ public class FileTree {
     private String fileName;
     private boolean isDirectory;
     private List<FileTree> children;
+    private String fileHash;
+    private FileTree parent;
+
+    public void setParent(FileTree fileTree) {
+        this.parent = fileTree;
+        if (children != null)
+            for (FileTree child : children)
+                child.setParent(this);
+
+    }
+
+    public FileTree() {
+
+    }
+
+    public FileTree(String fileName) {
+        this.fileName = fileName;
+    }
 
     public String getFileName() {
         return fileName;
@@ -24,7 +42,6 @@ public class FileTree {
         isDirectory = directory;
     }
 
-
     public List<FileTree> getChildren() {
         return children;
     }
@@ -33,11 +50,27 @@ public class FileTree {
         this.children = children;
     }
 
+    public String getFileHash() {
+        return fileHash;
+    }
+
+    public void setFileHash(String fileHash) {
+        this.fileHash = fileHash;
+    }
+
     @Override
     public String toString() {
+        String name = null;
+        if (parent == null)
+            name = "null";
+        else
+            name = parent.getFileName();
+
         return "FileTree{" +
                 "fileName='" + fileName + '\'' +
                 ", isDirectory=" + isDirectory +
+                ", fileHash='" + fileHash + '\'' +
+                ", parent=" + name +
                 ", children=" + children +
                 '}';
     }

@@ -21,6 +21,8 @@ public class ApiController {
     @GetMapping("/get")
     public StreamingResponseBody getFile(@RequestParam("id") int id,
                                          HttpServletResponse response) {
+
+
         File file = fileService.getFile(id);
         byte[] data = file.getData();
         response.setHeader("Content-Disposition", "attachment;filename=" + file.getName());
