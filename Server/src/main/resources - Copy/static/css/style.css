@@ -1,0 +1,14 @@
+.content{
+  background-color: lightblue;
+width: 80%;
+max-width:1200px;
+margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+padding:  30px 100px;
+  min-height: 750px;
+  }
+
+footer{
+  background-color: bisque;
+}

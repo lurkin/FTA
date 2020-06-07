@@ -13,6 +13,7 @@ import pl.pjatk.s13242.fileshare.server.repos.FileRepository;
 import java.util.*;
 
 @RestController
+@RequestMapping("/api/")
 public class DocumentRestController {
 
     @Autowired
@@ -21,17 +22,13 @@ public class DocumentRestController {
     @Autowired
     private FileRepository fileRepository;
 
-    @RequestMapping("/file/{id}")
-    public File findReservation(@PathVariable("id") Long id) {
-        return fileRepository.findById(id).orElse(null);
-    }
 
-    @PostMapping("/file")
-    public File createFile(@RequestBody File file)
-    {
-
-        return fileRepository.save(file);
-    }
+//    @PostMapping("/file")
+//    public File createFile(@RequestBody File file)
+//    {
+//
+//        return fileRepository.save(file);
+//    }
 
     @GetMapping("/tree")
     public FileTree getFileTree()
@@ -47,7 +44,7 @@ public class DocumentRestController {
 
         Account account = accountRepository.findByEmail(username);
 
-        System.out.println(account);
+
 
 
     // TODO
